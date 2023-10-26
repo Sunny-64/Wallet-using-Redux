@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    overflow-x : hidden;
+    min-height: 100vh;
+}
+
+*{
+    margin : 0; 
+    padding : 0; 
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : #1E293B; 
+    --secondary-color : #475569; 
+    --accent-color : #B0C4DE; 
+    --opaque-bg : #64748B; 
+    --highlight : #7180D1; 
+}
+
+body{
+    background-color: var(--primary-color);
+    /* min-width: 500px; */
+}
+
+.active {
+    background: var(--accent-color) !important;
+    color : #000 !important;
+}
+
+.content-card{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.content-card::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

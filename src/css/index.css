@@ -31,11 +31,11 @@ body{
     color : #000 !important;
 }
 
-.content-card{
+.hide-scrollbar{
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
 }
 
-.content-card::-webkit-scrollbar { 
+.hide-scrollbar::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
